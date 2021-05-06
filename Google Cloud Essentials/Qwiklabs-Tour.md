@@ -224,8 +224,9 @@ To edit a file, type nano, followed by the filename you want to edit in Cloud Sh
 
 nano test.txt
 This will open the empty file in the Nano text editor:
-
+```
 nano.png
+```
 
 Type in a message like the following, but do not press ENTER:
 
@@ -234,8 +235,10 @@ To save the file with your new message, press CNTRL+X, press Y, and then press E
 Another helpful command is cat, which will output the contents of a file.
 
 To confirm that your file was updated correctly, run the following command:
-
+```
 cat test.txt
+```
+
 The text you entered in step 6 should be displayed in your Cloud Shell session.
 
 With just a few commands, you were able to create, edit, and output the contents of a file all in Cloud Shell (without having to leave your browser.)
